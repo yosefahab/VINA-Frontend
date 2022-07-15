@@ -8,18 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		EB6B24C328820C1900AFEC59 /* VINA_FrontendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6B24C228820C1900AFEC59 /* VINA_FrontendApp.swift */; };
-		EB6B24C528820C1900AFEC59 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6B24C428820C1900AFEC59 /* ContentView.swift */; };
 		EB6B24C728820C1A00AFEC59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6B24C628820C1A00AFEC59 /* Assets.xcassets */; };
 		EB6B24CA28820C1A00AFEC59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB6B24C928820C1A00AFEC59 /* Preview Assets.xcassets */; };
+		EB6B24D228820C8100AFEC59 /* NewsSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6B24D128820C8100AFEC59 /* NewsSheetView.swift */; };
+		EB6B24D428820C9E00AFEC59 /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6B24D328820C9E00AFEC59 /* ArticleView.swift */; };
+		EB6B24D628820CBA00AFEC59 /* TransparentEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6B24D528820CBA00AFEC59 /* TransparentEffect.swift */; };
+		EB6B24D828820CC900AFEC59 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6B24D728820CC900AFEC59 /* SettingsView.swift */; };
+		EB6B24DB28820D0900AFEC59 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6B24DA28820D0900AFEC59 /* Article.swift */; };
+		EB6B24DD28820D2100AFEC59 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6B24DC28820D2100AFEC59 /* Theme.swift */; };
+		EB6B24E028820D3E00AFEC59 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6B24DF28820D3E00AFEC59 /* Client.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EB6B24BF28820C1900AFEC59 /* VINA-Frontend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VINA-Frontend.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB6B24C228820C1900AFEC59 /* VINA_FrontendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VINA_FrontendApp.swift; sourceTree = "<group>"; };
-		EB6B24C428820C1900AFEC59 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		EB6B24C628820C1A00AFEC59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB6B24C928820C1A00AFEC59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EB6B24CB28820C1A00AFEC59 /* VINA_Frontend.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VINA_Frontend.entitlements; sourceTree = "<group>"; };
+		EB6B24D128820C8100AFEC59 /* NewsSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsSheetView.swift; sourceTree = "<group>"; };
+		EB6B24D328820C9E00AFEC59 /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
+		EB6B24D528820CBA00AFEC59 /* TransparentEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentEffect.swift; sourceTree = "<group>"; };
+		EB6B24D728820CC900AFEC59 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EB6B24DA28820D0900AFEC59 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		EB6B24DC28820D2100AFEC59 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		EB6B24DF28820D3E00AFEC59 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +64,13 @@
 		EB6B24C128820C1900AFEC59 /* VINA-Frontend */ = {
 			isa = PBXGroup;
 			children = (
+				EB6B24DE28820D3000AFEC59 /* Services */,
+				EB6B24D928820CFC00AFEC59 /* Models */,
 				EB6B24C228820C1900AFEC59 /* VINA_FrontendApp.swift */,
-				EB6B24C428820C1900AFEC59 /* ContentView.swift */,
+				EB6B24D128820C8100AFEC59 /* NewsSheetView.swift */,
+				EB6B24D328820C9E00AFEC59 /* ArticleView.swift */,
+				EB6B24D728820CC900AFEC59 /* SettingsView.swift */,
+				EB6B24D528820CBA00AFEC59 /* TransparentEffect.swift */,
 				EB6B24C628820C1A00AFEC59 /* Assets.xcassets */,
 				EB6B24CB28820C1A00AFEC59 /* VINA_Frontend.entitlements */,
 				EB6B24C828820C1A00AFEC59 /* Preview Content */,
@@ -67,6 +84,23 @@
 				EB6B24C928820C1A00AFEC59 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EB6B24D928820CFC00AFEC59 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB6B24DA28820D0900AFEC59 /* Article.swift */,
+				EB6B24DC28820D2100AFEC59 /* Theme.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EB6B24DE28820D3000AFEC59 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EB6B24DF28820D3E00AFEC59 /* Client.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +173,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB6B24C528820C1900AFEC59 /* ContentView.swift in Sources */,
+				EB6B24D828820CC900AFEC59 /* SettingsView.swift in Sources */,
 				EB6B24C328820C1900AFEC59 /* VINA_FrontendApp.swift in Sources */,
+				EB6B24DB28820D0900AFEC59 /* Article.swift in Sources */,
+				EB6B24D628820CBA00AFEC59 /* TransparentEffect.swift in Sources */,
+				EB6B24D428820C9E00AFEC59 /* ArticleView.swift in Sources */,
+				EB6B24D228820C8100AFEC59 /* NewsSheetView.swift in Sources */,
+				EB6B24E028820D3E00AFEC59 /* Client.swift in Sources */,
+				EB6B24DD28820D2100AFEC59 /* Theme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

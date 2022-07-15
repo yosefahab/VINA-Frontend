@@ -1,17 +1,27 @@
 //
-//  VINA_FrontendApp.swift
-//  VINA-Frontend
+//  VINAApp.swift
+//  VINA
 //
-//  Created by Youssef Ahab on 15/07/2022.
+//  Created by Youssef Ahab on 05/07/2022.
 //
 
 import SwiftUI
 
 @main
-struct VINA_FrontendApp: App {
+struct VINAApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NewsSheetView(vm: ArticleListViewModel())
+                .background(TransparentEffect())
         }
+        .windowStyle(.hiddenTitleBar)
+        
+        #if os(macOS)
+        Settings {
+            SettingsView()
+        }
+        #endif
+
     }
 }
